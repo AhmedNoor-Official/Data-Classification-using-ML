@@ -4,6 +4,10 @@ The data set included 8 features, used for predicting the cellular localization 
 The extracted yeast dataset includes 3 classes only. The class is the localization site. Classes 1, 2
 and 3 denote CYT (cytosolic or cytoskeletal), NUC (nuclear), MIT (mitochondrial), respectively.
 
+The training set consists of 800 instances, 288 labeled as 1, 304 labeled as 2
+and 208 labeled as 3. For this project, the dataset was a balanced dataset. 
+The test set contained 335 instances.
+
 To classify the data we used Support Vector Machines (SVMs). 
 The type of SVM i used was the C-SVC (Cost-Support Vector Classifier) and the kernel function was the Gaussian radial basis function (RBF).
 
