@@ -16,4 +16,4 @@ I was given the following combinations to use: [C=10, γ=0.1], [C=50, γ=0.1], [
 
 I then had to train an SVM model for each combination from the given 4 combinations and test it on the normalised validation set. 
 The accuracy rate for each combination on the validation set was reported. 
-And finally, I selected the best combination of parameters applied and tested again and reported the result.
+And finally, I selected the best combination of parameters applied and tested again on the test set and reported the result.
